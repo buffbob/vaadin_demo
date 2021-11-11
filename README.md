@@ -1,8 +1,10 @@
+
 # Flow CRM Tutorial
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
 
+youtube video of this program @ https://www.youtube.com/watch?v=bxy2JgqqKDU
 ## Running the application
 
 The project is a standard Maven project. To run it from the command line,
