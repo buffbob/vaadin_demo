@@ -18,16 +18,14 @@ import org.vaadin.artur.helpers.LaunchUtil;
  *
  */
 @SpringBootApplication(exclude = ErrorMvcAutoConfiguration.class)
-
 @Theme(value = "flowcrmtutorial")
 @PWA(name = "VaadinCRM",
         shortName = "CRM",
         offlinePath="offline.html",
-        offlineResources = {"images/offline.png", "images/offline.png", "icons/icon.png"}
+        offlineResources = {"images/offline.png", "images/logo.png", "icons/icon.png"}
 )
 @NpmPackage(value = "line-awesome", version = "1.3.0")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
-
     public static void main(String[] args) {
         LaunchUtil.launchBrowserInDevelopmentMode(SpringApplication.run(Application.class, args));
     }
